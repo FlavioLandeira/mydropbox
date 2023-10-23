@@ -2,4 +2,24 @@
 body{ 
     background-color: black;
     color: white;
+    margin: 0;
+}
+header{
+    display: inline-flex;
+    background-color: white;
+    margin-bottom: 0px;
+    height:45px;
+}
+.logo{
+    background-color: #0061fe;
+    margin-right: 96.5%;
+    padding: 10px;
+    display: flex;
+    max-height: 59%;
+}
+.logo-nome{
+    color: blue;
+    margin-left:80px;
+    padding-left: 10px;
+
 }
