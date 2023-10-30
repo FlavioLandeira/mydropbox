@@ -1,6 +1,6 @@
 /*style.css*/
 body{ 
-    background-color: black;
+    background-color: #1e1919;
     color: white;
     margin: 0;
 }
@@ -9,17 +9,21 @@ header{
     background-color: white;
     margin-bottom: 0px;
     height:45px;
+    width: 100%;
 }
-.logo{
-    background-color: #0061fe;
-    margin-right: 96.5%;
-    padding: 10px;
-    display: flex;
-    max-height: 59%;
+img{
+    overflow: clip;
+    overflow-clip-margin: content-box;
 }
-.logo-nome{
-    color: blue;
-    margin-left:80px;
-    padding-left: 10px;
+.firstpage{
+    margin-top: 90px;
+    text-align: center;
 
+    margin-left: auto;
+    margin-right: auto;
 }
+.firstpage h1{
+    
+}
+
+.logo { background-color: #0061fe;}
