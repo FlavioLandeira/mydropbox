@@ -11,6 +11,16 @@ header{
     height:48px;
     width: 100%;
 }
+.nav-ini a{
+
+    display: inline-block;
+    margin-top: 13px;
+
+    text-decoration:none;
+    color: black;
+    font-size: 18px;
+    padding-left: 10px;
+}
 .firstpage{
     margin-top: 80px;
     text-align: center;
@@ -59,11 +69,11 @@ header{
 nav a
 {
     display: inline-block;
-    margin-top: 15px;
+    margin-top: 13px;
 
     text-decoration:none;
     color: black;
-    font-size: 16px;
+    font-size: 18px;
     padding-right: 10px;
 }
 header button
@@ -77,6 +87,7 @@ border-top: 3px;
 cursor :pointer;
 padding-left :12px;
 padding-right :12px;
+margin: 5px;
 }
 #globologo
 {
@@ -85,3 +96,10 @@ padding-right :12px;
     width: 30px;
     padding: 7px;
 }
+video:hover::-webkit-media-controls {
+    display: none;
+  }
+
+  video::-webkit-media-controls {
+    display: block;
+  }
