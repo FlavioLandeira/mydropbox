@@ -52,6 +52,7 @@ header{
 .firstpage video
 {
     width: 100%;
+    height: 100%;
 }
 #dropbox_logo
 {
@@ -66,11 +67,14 @@ header{
     width: 30px;
     padding: 9px;
 }
-nav a
+#SetaLogo{
+    color: white;
+}
+.nav-end a
 {
     display: inline-block;
     margin-top: 13px;
-
+    
     text-decoration:none;
     color: black;
     font-size: 18px;
@@ -103,3 +107,9 @@ video:hover::-webkit-media-controls {
   video::-webkit-media-controls {
     display: block;
   }
+
+#secondpage h2{
+    text-align: center;
+    font-size: 32px;
+    line-height: 120%;
+}
